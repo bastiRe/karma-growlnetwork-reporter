@@ -1,6 +1,6 @@
 {
   "name": "karma-growlnetwork-reporter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Karma plugin. Report results with growl over Network.",
   "main": "index.js",
   "scripts": {

@@ -68,5 +68,5 @@ GrowlReporter.$inject = ['helper', 'logger','config.growlnetworkReporter'];
 
 // PUBLISH DI MODULE
 module.exports = {
-  'reporter:growl': ['type', GrowlReporter]
+  'reporter:growlnetwork': ['type', GrowlReporter]
 };
