@@ -26,7 +26,7 @@ var OPTIONS = {
 
 
 var GrowlReporter = function(helper, logger, config) {
-  var log = logger.create('reporter.growl');
+  var log = logger.create('reporter.growlnetwork');
 
   var optionsFor = function(type, browser) {
     var prefix = config && config.prefix ? config.prefix : '';
@@ -64,7 +64,7 @@ var GrowlReporter = function(helper, logger, config) {
   };
 };
 
-GrowlReporter.$inject = ['helper', 'logger','config.growlReporter'];
+GrowlReporter.$inject = ['helper', 'logger','config.growlnetworkReporter'];
 
 // PUBLISH DI MODULE
 module.exports = {
