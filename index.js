@@ -33,6 +33,8 @@ var GrowlReporter = function(helper, logger, config) {
     return helper.merge(OPTIONS[type], {title: prefix + util.format(OPTIONS[type].title, browser)});
   };
 
+  growly.setHost('192.168.54.1', '23053');
+
   growly.register('Karma', '', [], function(error) {
     var warning = 'No running version of GNTP found.\n' +
 	                'Make sure the Growl service is installed and running.\n' +
